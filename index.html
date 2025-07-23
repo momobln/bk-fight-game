@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BK Fight Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- شاشة البداية -->
+  <div id="start-screen">
+    <h1>BK Fight Game</h1>
+    <button id="start-btn">Start Fight</button>
+  </div>
+
+  <!-- شاشة القتال -->
+  <div id="game-screen" style="display:none;">
+    <div class="status-bar">
+      <div id="health1" class="health">Putin Health: 100</div>
+      <div id="health2" class="health">Trump Health: 100</div>
+    </div>
+
+    <div id="fighters" class="fighters">
+      <div class="fighter" id="fighter1">
+        <img src="./img/putin.png" alt="Putin">
+        <p>Putin</p>
+        <button class="attack-btn" data-target="2">👊 Attack Trump</button>
+      </div>
+      <div class="fighter" id="fighter2">
+        <img src="./img/trump.png" alt="Trump">
+        <p>Trump</p>
+        <button class="attack-btn" data-target="1">👊 Attack Putin</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- شاشة النهاية -->
+  <div id="game-over-screen" style="display:none;">
+    <h1 id="winner-text">Fighter Wins</h1>
+    <button id="restart-btn">Restart</button>
+  </div>
+</body>
+</html>

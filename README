@@ -1,0 +1,74 @@
+# 🥊 BK Fight Game
+
+A simple 2-player fighting game built with **HTML**, **CSS**, and **Vanilla JavaScript using Object-Oriented Programming (OOP)**.
+
+---
+
+## 🎮 Gameplay Overview
+
+In BK Fight Game, two players—**Putin** and **Trump**—face off in a turn-based battle.
+
+- Both fighters start with **100 health points**.
+- Each player can attack the opponent using their dedicated **"Attack"** button.
+- Damage per hit is random (between **5–25**).
+- The first fighter whose health reaches **0** loses.
+
+---
+
+## 🧠 How It Works
+
+- The game uses a `Fighter` class to manage:
+  - Name and health
+  - DOM references
+  - Methods like `takeDamage()` and `punchAnimation()`
+- Each fighter is represented by:
+  - A name
+  - An image
+  - A health bar
+  - An attack button
+
+
+---
+
+## 🔧 Technologies Used
+
+- **HTML**: Structure and layout
+- **CSS**: Styling and animations (`@keyframes`)
+- **JavaScript (ES6)**:
+  - `class Fighter`
+  - DOM manipulation
+  - Game loop logic
+
+---
+
+## 🏆 Features
+
+- 2 Fighters: Putin vs. Trump
+- Animated punch effect 💢
+- Health bar system
+- Game Over screen with winner name
+- Restart functionality
+
+---
+
+## ▶️ How to Play
+
+1. Click **Start Fight**
+2. Use the **Attack** buttons to hit your opponent
+3. Watch the health bars drop!
+4. First to reach 0 HP loses
+5. Click **Restart** to play again!
+
+---
+
+## 🚀 Live Demo
+
+[🔗 Play BK Fight Game on GitHub Pages](https://YOUR-USERNAME.github.io/bk-fight-game/)
+
+> Replace `YOUR-USERNAME` with your actual GitHub username after deployment.
+
+---
+
+## 🙌 Created With Love
+Built as part of the **July 2025 Game Creation Project** at Ironhack 💻✨
+
